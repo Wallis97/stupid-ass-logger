@@ -1,0 +1,20 @@
+Features:
+	- Creating new user:
+		- get input from an user - login, e-mail, password
+		- 
+		- hash the password, and bound the values together
+		- send them to a DB
+	- Logging in:
+		- get a login then check if it exists in the DB
+			- if yes, send back hash of the password
+			- if no, send promt with info that there is no such user in the DB
+		- get a password, hash it and then compare with the hash from the DB
+	- Display existing users:
+		- check if user has admin privileges
+		- send request to the DB
+		- put response from the DB in a list or sth
+	- Switch user
+	- Chatbot:
+		- remind users to change their passwords 
+		- tell the weather 
+		- tell currency exchange rates 
